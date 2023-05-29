@@ -10,7 +10,7 @@ import { BigNumber, ethers } from "ethers";
 import type { NextPage } from "next";
 import { useEffect, useState } from "react";
 import styles from "../styles/Home.module.css";
-import TripleToggleSwitch from "./Switcher";
+import TripleToggleSwitch from "../components/Switcher";
 const nftDropContractAddress = "0xFeF73CcFB94D033ff1A663B40431941834694e04";
 const tokenContractAddress = "0x0bD8a49b17AF25A8031AC7ac825240DC391E24FC";
 const stakingContractAddress = "0x4486801EbC1BC920291282a63faDAB0BFf7b30cd";
