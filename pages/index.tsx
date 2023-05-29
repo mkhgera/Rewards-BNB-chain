@@ -7,7 +7,7 @@ const Home = () => {
 	<div className="wrap">
       <div>
         <h1 className="h1">
-          <span>Exeptra -</span> custom staking contract
+          <span>Expetra -</span> custom staking contract
         </h1>
         <div className="cardsWrapper">
           <div className="actionCard">
