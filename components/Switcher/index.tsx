@@ -38,7 +38,7 @@ const styles = {
 };
 
 const TripleToggleSwitch: React.FC<ToggleProps> = ({ buttons, onChange }) => {
-  const [active, setActive] = useState<string>(buttons[0].value);
+  const [active, setActive] = useState<string>(buttons?.[0]?.value || '');
 
   const handleClick = (value: string) => {
     setActive(value);
